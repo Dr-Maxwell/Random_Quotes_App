@@ -1,0 +1,22 @@
+.spinner {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(153, 22, 22, 0.493);
+  backdrop-filter: blur(3px);
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.spinner.show {
+  display: flex;
+}
+
+.key {
+  font-weight: bolder;
+  padding-right: 0.5rem;
+}
+
+body {
+  min-height: 100vh;
+}
